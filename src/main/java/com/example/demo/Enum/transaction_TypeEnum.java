@@ -1,0 +1,7 @@
+package com.example.demo.Enum;
+
+public enum transaction_TypeEnum {
+
+	OTHERS, POLICY, ENDORSEMENT, CLAIMS, USERS, LEADS, CUSTOMERS, RENEWAL,EMAIL,SMS,NOTIFICATION,WHATSAPP,RECHARGE
+}
+ 
