@@ -1,8 +1,7 @@
 package com.example.demo.ResponseRequest;
 
 import java.io.Serializable;
-import com.example.demo.Enum.Errortype;
-import com.example.demo.Enum.ModuleListingEnum;
+
 
 public class ResponseHandler implements Serializable {
 
@@ -12,11 +11,9 @@ public class ResponseHandler implements Serializable {
 
 	private String message;
 	
-	private  Errortype errortype;
 	
 	private Integer totalRecords;
 	
-	private ModuleListingEnum moduleName;
 	
 	 public ResponseHandler() {
 	    }
@@ -51,13 +48,7 @@ public class ResponseHandler implements Serializable {
 	        this.message = message;
 	    }
 
-	    public Errortype getErrortype() {
-	        return errortype;
-	    }
 
-	    public void setErrortype(Errortype errortype) {
-	        this.errortype = errortype;
-	    }
 
 	    public Integer getTotalRecords() {
 	        return totalRecords;
@@ -67,12 +58,6 @@ public class ResponseHandler implements Serializable {
 	        this.totalRecords = totalRecords;
 	    }
 
-	    public ModuleListingEnum getModuleName() {
-	        return moduleName;
-	    }
-
-	    public void setModuleName(ModuleListingEnum moduleName) {
-	        this.moduleName = moduleName;
-	    }
+	
 
 }

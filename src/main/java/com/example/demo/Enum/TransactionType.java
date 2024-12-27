@@ -1,6 +1,0 @@
-package com.example.demo.Enum;
-
-public enum TransactionType {
-	POLICY,ENDORSEMENTS,CLAIMS,USERS,LEADS,CUSTOMERS,EMAIL,SMS,NOTIFICATION,WHATSAPP
-
-}

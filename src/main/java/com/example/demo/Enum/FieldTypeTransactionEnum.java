@@ -1,6 +1,0 @@
-package com.example.demo.Enum;
-
-public enum FieldTypeTransactionEnum {
-	INT, TEXTAREA,VARCHAR, DROPDOWN, DOUBLE, DATE, CHAR, FREETEXT,STRING,TEXT,FLOAT,PERCENTAGE,MULTISELECT,HIDDEN,FREE_TEXT,FILE,DATETIME,BLOB,SMARTDROPDOWN // Define other types as needed
-
-}
